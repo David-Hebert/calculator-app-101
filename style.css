@@ -3,3 +3,19 @@ body {
   width: 50%;
   height: 75%;
 }
+
+.calculator {
+  display: grid;
+}
+
+button {
+  background-color: #1689FC;
+}
+
+.equal {
+  background-color: #FE52A2;
+}
+
+/* #1689FC = Dark Blue */
+/* #81C8EE = Light Blue */
+/* #FE52A2 = Pink */
