@@ -2,10 +2,57 @@ body {
   margin: 20% auto;
   width: 50%;
   height: 75%;
+  background-color: tan;
+}
+
+h1 {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 35px;
 }
 
 .calculator {
   display: grid;
+  width: 35%;
+  margin: auto;
+  border: solid 2px black;
+  background-color: grey;
+  padding: 15px;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 3px white;
+}
+
+.labels {
+	margin: 10px;
+}
+
+#first-Number {
+	color: black;
+	background-color: #e3e3e3;
+	margin: 10px;
+	padding: 10px;
+}
+
+#second-Number {
+	color: black;
+	background-color: #e3e3e3;
+	margin: 10px;
+	padding: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.buttons {
+	margin: auto;
+	padding: 10px;
 }
 
 button {
@@ -14,6 +61,16 @@ button {
 
 .equal {
   background-color: #FE52A2;
+  margin: 10px;
+}
+
+.clear {
+	margin: 10px;
+}
+
+#result {
+	margin: auto;
+	padding: 10px;
 }
 
 /* #1689FC = Dark Blue */
